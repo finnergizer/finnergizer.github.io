@@ -15,7 +15,6 @@ const Header = (props) => (
         <nav>
             <ul>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Intro</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
                 <li><a href="javascript:;" onClick={() => {window.open("https://registry.jsonresume.org/finnergizer?theme=elegant", "_blank")}}>Resume</a></li>            
             </ul>
         </nav>
